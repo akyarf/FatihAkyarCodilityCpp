@@ -1,2 +1,2 @@
 # FatihAkyarCodilityCpp
- I am praparing for a codility test for C++ and this is my progress
+ I am preparing a portfolio for C++. I am open to work.
