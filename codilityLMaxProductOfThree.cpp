@@ -16,7 +16,6 @@ int solution(vector<int> A)
     int last=A.size();
     sort(A.begin(),A.end());
     int result=max(A[0]*A[1]*A[last-1],A[last-3]*A[last-2]*A[last-1]);
-
     return result;
 }
 
