@@ -16,15 +16,14 @@ int solution(vector<int> &A, vector<int> &B)
 {
     int result=0;
     int last=A.size();
-    vector<int>ups,downs;
+    vector<int>stackm;
     for(int i=0;i<last;i++)
     {
-        ups.push_back(A[i]*B[i]);
-        downs.push_back(A[last-i-1]*(1-B[last-i-1]));
+        if(B(i)==1)
+            {
+                stackm
+            }
     }
-    print_vector(ups);
-    cout<<endl;
-    print_vector(downs);
     return result;
 }
 
